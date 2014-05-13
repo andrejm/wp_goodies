@@ -1,0 +1,4 @@
+/*WP fix - https://core.trac.wordpress.org/ticket/26609 */
+#wpadminbar {
+  position: fixed;
+}
