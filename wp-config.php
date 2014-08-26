@@ -8,3 +8,6 @@ define ( 'DISALLOW_FILE_EDIT', true );
 // DISABLE THEME/PLUGIN EDITOR
 // source: https://github.com/senlin/Code-Snippets/blob/master/WP-CONFIG/disable-theme-plugin-editor.php
 define('DISALLOW_FILE_EDIT',true);
+
+// set post revisions count 
+define( 'WP_POST_REVISIONS', 3);
