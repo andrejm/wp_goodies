@@ -45,6 +45,32 @@ add_action( 'admin_init', 'remove_dashboard_meta' );
 
 /**
 *
+* Remove metaboxes from admin
+*
+*/
+function remove_meta_boxes() {
+    // Only proceed if user does not have admin role.
+    if (!current_user_can('manage_options')) { 
+		// remove_meta_box( 'submitdiv', 'post', 'normal' ); // Publish meta box
+		// remove_meta_box( 'commentsdiv', 'post', 'normal' ); // Comments meta box
+		// remove_meta_box( 'revisionsdiv', 'post', 'normal' ); // Revisions meta box
+		// remove_meta_box( 'authordiv', 'post', 'normal' ); // Author meta box
+		// remove_meta_box( 'slugdiv', 'post', 'normal' );	// Slug meta box
+		// remove_meta_box( 'tagsdiv-post_tag', 'post', 'side' ); // Post tags meta box
+		// remove_meta_box( 'categorydiv', 'post', 'side' ); // Category meta box
+		// remove_meta_box( 'postexcerpt', 'post', 'normal' ); // Excerpt meta box
+		// remove_meta_box( 'formatdiv', 'post', 'normal' ); // Post format meta box
+		// remove_meta_box( 'trackbacksdiv', 'post', 'normal' ); // Trackbacks meta box
+		// remove_meta_box( 'postcustom', 'post', 'normal' ); // Custom fields meta box
+		// remove_meta_box( 'commentstatusdiv', 'post', 'normal' ); // Comment status meta box
+		// remove_meta_box( 'postimagediv', 'post', 'side' ); // Featured image meta box	
+		// remove_meta_box( 'pageparentdiv', 'page', 'side' ); // Page attributes meta box
+    }
+}
+add_action( 'add_meta_boxes', 'remove_meta_boxes' );
+
+/**
+*
 * Customize login screen - logo, url, title
 *
 */
@@ -71,3 +97,14 @@ function custom_login_logo_url_title() {
     return 'To homepage';
 }
 add_filter( 'login_headertitle', 'custom_login_logo_url_title' );
+
+/**
+*
+* Remove post formats alltogether
+*
+*/
+// Remove post formats support
+function remove_post_formats() {
+    remove_theme_support('post-formats');
+}
+add_action('after_setup_theme', 'remove_post_formats', 11);
