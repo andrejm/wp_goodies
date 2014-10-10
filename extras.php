@@ -45,6 +45,13 @@ add_action( 'admin_init', 'remove_dashboard_meta' );
 
 /**
 *
+* Remove Welcome panel from dashboard
+*
+*/
+remove_action( 'welcome_panel', 'wp_welcome_panel' );
+
+/**
+*
 * Remove metaboxes from admin
 *
 */
