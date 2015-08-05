@@ -61,4 +61,13 @@ function my_remove_sub_menus() {
 }
 add_action('admin_menu', 'my_remove_sub_menus');
 
+/**
+ *  How to remove TinyMCE editor from post, page, etc
+ * */
+
+function my_remove_editor() {
+  remove_post_type_support('post', 'editor');
+}
+add_action('admin_init', 'my_remove_editor');
+
 ?>
