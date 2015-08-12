@@ -1,5 +1,8 @@
 <?php 
 
+// http://www.paulund.co.uk/add-custom-post-meta-data-to-list-post-table
+// http://code.tutsplus.com/articles/quick-tip-make-your-custom-column-sortable--wp-25095
+
 /**
  * Add new columns to the post table
  *
