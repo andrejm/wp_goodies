@@ -4,3 +4,11 @@ Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
 RewriteRule ^wp-content/uploads/(.*) http://stranka.sk/wp-content/uploads/$1 [R=301,NC,L]
+
+
+
+# SSL
+
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]

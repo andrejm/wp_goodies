@@ -58,6 +58,8 @@ This plugin generates static html files from your dynamic WordPress blog.
 
 ### [Intuitive Custom Post Order](https://sk.wordpress.org/plugins/intuitive-custom-post-order/)
 
+### [List of documentation/kb plugins](https://docs.google.com/spreadsheets/d/1GDrYQfIRfCvE2stEFqZ7lxg89yxQmCI4PegpjLaRg3s/edit#gid=0)
+
 Allows user to order CPTS / taxonomies by simple drag n drop & use this order in query
 
 ### Duplicate posts
@@ -69,6 +71,10 @@ Allows user to order CPTS / taxonomies by simple drag n drop & use this order in
 Because if they get your Wordpress DB with users, MD5 is too easy to break
 
 ### Really simple SSL
+
+## **&#8680;** Typography
+
+### [Zalomeni](https://wordpress.org/plugins/zalomeni/)
 
 # wp-cli install all script
 

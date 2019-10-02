@@ -2,6 +2,7 @@
 
 // debugging on production
 // see wp-content/debug.log
+// use with $asset_ver = ( defined('WP_DEBUG_DISPLAY') and WP_DEBUG_DISPLAY == true ) ? time() : '201903255';
 define('WP_DEBUG', true);
 define('WP_DEBUG_LOG', true);
 define( 'WP_DEBUG_DISPLAY', false );
