@@ -21,6 +21,7 @@ Besides its main task it also shows all available image_sizes
 * Duplicator
 * [BackUpWordPress](https://wordpress.org/plugins/backupwordpress/) - originally by HumanMade
 * [WP Staging](https://sk.wordpress.org/plugins/wp-staging/) //TODO Test
+* [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) //TODO test
 
 ## **&#8680;** Good for prod
 
