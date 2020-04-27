@@ -2,7 +2,6 @@
 
 My personal list of frequently used plugins
 
----
 
 ## **&#8680;** Good for dev
 
@@ -24,6 +23,8 @@ Besides its main task it also shows all available image_sizes
 * [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) //TODO test
 
 ## **&#8680;** Good for prod
+
+### [Wordfence Security](https://wordpress.org/plugins/wordfence/)
 
 ### [Easy WP SMTP](https://sk.wordpress.org/plugins/easy-wp-smtp/)
 To avoid sending spammy looking mail throu PHP `mail()` function
@@ -55,7 +56,7 @@ This plugin generates static html files from your dynamic WordPress blog.
 
 ### CMB2
 
-### Disable comments
+### [Disable comments](https://wordpress.org/plugins/disable-comments/)
 
 ### [Intuitive Custom Post Order](https://sk.wordpress.org/plugins/intuitive-custom-post-order/)
 
@@ -71,7 +72,7 @@ Allows user to order CPTS / taxonomies by simple drag n drop & use this order in
 
 Because if they get your Wordpress DB with users, MD5 is too easy to break
 
-### Really simple SSL
+### [Really simple SSL](https://wordpress.org/plugins/really-simple-ssl/)
 
 ## **&#8680;** Typography
 
